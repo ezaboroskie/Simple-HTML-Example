@@ -1,0 +1,56 @@
+
+body{
+    background-color: darkgrey;
+}
+
+.nav-text{
+    font-size: 30px;
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    background-color: purple;
+    justify-content: space-evenly
+}
+
+.main-content{
+    display: flex;
+    background-color: peachpuff;
+    margin: auto;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+.hidden-div{
+    display: none;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px){
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .main-content{
+        margin: auto;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .hidden-div{
+        display: block;
+        
+    }
+}
